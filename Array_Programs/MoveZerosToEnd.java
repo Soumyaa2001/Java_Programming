@@ -6,7 +6,6 @@ class MoveZerosToEnd {
 		System.out.print("Enter Size of Array  : ");
 		int size = sc.nextInt();
 		int[] a = new int[size];
-		int sum=0;
 		for(int i=0; i<a.length;i++)
 		{
 			a[i]=sc.nextInt();	
